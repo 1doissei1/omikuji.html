@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omikuji</title>
+
+<style>
+    body{
+        background-color: aquamarine;
+    }
+    p{
+        text-align: center;
+        font-size: 2em;
+        margin-top: 100px;
+    }
+</style>
+
+</head>
+<body>
+
+    <script>
+        // Excrllent luck , Very good luck , Good luck , Uncertain luck , Bad luck
+        let kujis = ['Excrllent luck' , 'Very good luck' , 'Good luck' , 'Uncertain luck' , 'Bad luck'];
+        // console.log(kujis[1]);
+        let kuji = Math.floor(Math.random()* 5);
+        // console.log(kuji);
+
+
+        document.write('<p>Your fortune is ' + kujis[kuji] + '.</p>');
+ 
+
+
+    
+
+    </script>
+    
+</body>
+</html>
